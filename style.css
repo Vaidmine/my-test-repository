@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient( 90deg, rgba(240, 240, 240, 0.6) 35%, rgba(13, 5, 166, 0.8) 100%), url(./DBDMa.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    /* backgr scoll kartu su turiniu, o kai fixed - nejuda */
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    font-family: "Poppins", sans-serif;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    color: aliceblue;
+    margin-bottom: 3px;
+}
+
+form {
+    background-color: rgba(0, 0, 255, 0.252);
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    padding: 40px 20px;
+}
+
+input,
+select {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.inline-label {
+    display: inline;
+}
+
+form p {
+    text-align: left;
+    color: aliceblue;
+}
+
+input[type="radio"] input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    padding: 10px;
+}
